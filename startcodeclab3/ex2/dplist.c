@@ -60,8 +60,9 @@ dplist_t *dpl_insert_at_index(dplist_t *list, element_t element, int index) {
     if (list == NULL) return NULL;
 
     list_node = malloc(sizeof(dplist_node_t));
+    //list_node->element = malloc(sizeof(element_t)); /// DO NOT ALLOCATE DYNAMIC MEMORY FOR THE ELEMENT. THIS ELEMENT IS A REFERENCE TO READ ONLY MEMORY ("BANANA" ELEMENT WONT CHANGE AT RUNTIME) WHICH IS KNOWN AT COMPILE TIME.
+    list_node->element = element; /// YOU SHOULD ALLOCATE DYNAMIC MEMORY WHEN THE ELEMENT NEEDS TO BE MODIFIED AND MAYBE INPUTTED BY THE USER (UNKOWN AT COMPILE TIME)
 
-    list_node->element = element;
     // pointer drawing breakpoint
     if (list->head == NULL) { // covers case 1
         list_node->prev = NULL;
@@ -95,30 +96,26 @@ dplist_t *dpl_insert_at_index(dplist_t *list, element_t element, int index) {
     return list;
 }
 
-dplist_t *dpl_remove_at_index(dplist_t *list, int index) {
+dplist_t *dpl_remove_at_index(dplist_t *list, int index) { // IMPORTANT TO HANDLE EACH SCENARIO (START, MIDDLE, END) INDIVIDUALLY
     dplist_node_t *reference = dpl_get_reference_at_index(list,index);
     if (reference != NULL) {
         if (reference->next == NULL && reference->prev == NULL) {
             list->head = NULL;
-            free(reference->element);
             free(reference);
         }
         else if (reference->next == NULL) {
             reference->prev->next = NULL;
             reference->prev = NULL;
-            free(reference->element);
             free(reference);
         }
         else if (reference->prev == NULL) {
             list->head = reference->next;
             reference->next->prev = list->head;
-            free(reference->element);
             free(reference);
         }
         else {
             reference->prev->next = reference->next;
             reference->next->prev = reference->prev;
-            free(reference->element);
             free(reference);
         }
         return list;
@@ -131,12 +128,12 @@ int dpl_size(dplist_t *list) {
     dplist_node_t *current_node = list->head;
     if (current_node == NULL) return 0; //List exists, no elements added
     if (current_node->next == NULL) return 1; // 1 element in list
-    int count = 0;
+    int count = 1;
     while (current_node->next != NULL) {
         current_node = current_node->next;
         count++;
     }
-    return count;
+    return count; // This will always be 1 larger than the last index because we made it start from 1.
 }
 
 dplist_node_t *dpl_get_reference_at_index(dplist_t *list, int index) {
