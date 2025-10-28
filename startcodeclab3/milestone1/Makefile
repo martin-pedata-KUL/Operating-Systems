@@ -20,6 +20,9 @@ all: dplist.c dplist_test.c
 run: all
 	./build/dplist_test
 
+memtest: all
+	valgrind --leak-check=yes ./build/dplist_test
+
 clean:
 	rm -r build
 
