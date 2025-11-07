@@ -14,4 +14,5 @@
 - If you need a variable that is of a defined type at compile time, and that will not change during execution, and that outlives the current scope of the function, use global and static (makes it personal to the current module or .c file).
 - Do not forget to malloc everytime you create a new pointer to a list, and everytime you create a list node. Also, whenever you do not know the size of whatever the variable you are creating will be, use malloc. Why not make the list and all its nodes just global variables on stack? Because you need to know the sizes of nodes and length of the list at compile time. Also no free() function. Basically, all list manipulations (insertions, deletions, etc...) become harder.
 - fread() to read binary files, fscanf() to read text files. Always check first whether files have been opened (not null), and closed. Check whether you are at the end of the file too. You pass pointers to the local variables you want to overwrite because remember, **whenever you want to change the content of memory you have allocated (i.e. change variable value) outside the current scope you need to pass pointers to it.**.
-
+- You often make mistakes in loop bounds. Careful with that.
+- Make sure you free all memory. Ctrl F and search malloc, and make sure somewhere you free all malloc'd variables.
