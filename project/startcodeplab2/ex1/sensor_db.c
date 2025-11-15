@@ -11,20 +11,17 @@
 
 FILE * open_db(char * filename, bool append) {
     FILE * f = NULL;
-    if (append) {
-        f = fopen(filename, "a");
-    }
-    else {
-        f = fopen(filename, "w");
-    }
+
+	f = append ? fopen(filename, "a") : fopen(filename, "w");
+
     return f;
 }
 
 int insert_sensor(FILE * f, sensor_id_t id, sensor_value_t value, sensor_ts_t ts) {
-    fprintf(f, "%u,", id);
+    fprintf(f, "%u,", id); // fprintf() -> system call to write into OPENED file.
     fprintf(f, "%.10f,", value);
     fprintf(f, "%ld\n", ts);
-    fflush(f);
+    fflush(f); // Ensures f is updated regardless of whether a system error occurs before execution of main() ends
     return 0;
 }
 

@@ -4,5 +4,11 @@ all: main.c sensor_db.h sensor_db.c logger.h logger.c
 run: all
 	./main.out
 
+memtest: all
+	valgrind --leak-check=yes ./main.out
+
+clean:
+	rm -f *.out sensor_db.csv gateway.log
+
 zip:
 	zip milestone2.zip *.c *.h Makefile
