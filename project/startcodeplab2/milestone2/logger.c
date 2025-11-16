@@ -15,22 +15,22 @@
 
 #define BUFFER_SIZE 256
 
-static int seq_nr; // Variable that retains its value across instantiations.
+static int seq_nr; // Variable that retains its value across instantiations within one execution cycle
 
 int write_to_log_process(char *msg) {
     FILE * log_f = NULL;
     char log[BUFFER_SIZE];
+
     time_t ts = time(NULL);
+    char tstr[30];
+    strcpy(tstr, ctime(&ts));
+    tstr[strcspn(tstr, "\n")] = '\0';
 
-    sprintf(log,"%d - %ld - %s \n",seq_nr,ts,msg); // sprintf() formats a specific character array into what you want.
+    sprintf(log,"%d - %s - %s\n",seq_nr,tstr,msg); // sprintf() formats a specific character array into what you want.
 
-    if (seq_nr == 0) {
-        log_f = fopen("gateway.log","w");
-    }
-    else {
-        log_f = fopen("gateway.log","a");
-    }
-    fprintf(log_f, "%s,", log);
+    log_f = fopen("gateway.log","a");
+
+    fprintf(log_f, "%s", log);
     fflush(log_f);
     fclose(log_f);
     seq_nr++; // Increment event counter.

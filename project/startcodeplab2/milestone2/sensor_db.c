@@ -20,8 +20,6 @@
 
 int fd[2]; // Create a length 2 array with fd[0] the read buffer and fd[1] the write buffer
 
-//void update_buff_till_nl(char * str, char * msg);
-
 FILE * open_db(char * filename, bool append) {
 
     FILE * f = NULL;
@@ -43,11 +41,11 @@ FILE * open_db(char * filename, bool append) {
         char * msg;
         if (append) {
             f = fopen(filename, "a");
-            msg = "existing csv file has been opened\n"; // Newline to ensure logger knows when the msg ends.
+            msg = "existing csv file has been opened"; // Newline to ensure logger knows when the msg ends.
         }
         else {
             f = fopen(filename, "w");
-            msg = "new csv file is being created\n";
+            msg = "new csv file is being created";
         }
         write(fd[1],msg,strlen(msg)+1); // Pass the log msg to the child
 
@@ -55,37 +53,36 @@ FILE * open_db(char * filename, bool append) {
     }
 
     else { // Child: Our current child has no child, so pid = 0
+
         close(fd[WRITE_END]);
 
+        char buffer[BUFFER_SIZE]; // Buffer of pipe
+        char msgbuf[BUFFER_SIZE]; // Buffer containing unique and separate messages.
+        int msglen = 0; //index of msgbuf.
+
+
         while (1) { // Blocks child in infinite loop, waiting for a read of a log message until the csv is closed
-            char buffer[BUFFER_SIZE];
-            read(fd[0],buffer,sizeof(buffer));
 
-            // char msg[BUFFER_SIZE];
-            //
-            // update_buff_till_nl(buffer,msg); // Update msg so that its last character excluding terminator is \n. This will be the actual log message with extra buffer space removed.
+            int n = (int) read(fd[0],buffer,sizeof(buffer)); // read() does two things. Loads our pipe buffer, and returns the number of bytes read.
 
-            if (strcmp(buffer,"child exit") == 0) {
-                break;
+            for (int i = 0; i < n; i++) { //Load msg buffer. This logic ensures that msgbuf retains its content through multiple pipe reads, and only resets its indexing (msglen) upon seeing a '\0' in the buffer.
+                msgbuf[msglen] = buffer[i];
+                msglen++;
+                if (buffer[i] == '\0') {
+                    if (strcmp(msgbuf,"child exit") == 0) {
+                        close(fd[READ_END]);
+                        end_log_process();
+                    }
+                    write_to_log_process(msgbuf);
+                    msglen = 0;
+                    memset(msgbuf, 0, BUFFER_SIZE); // Complete message has been read. reset message buffer and its index.
+
+                }
             }
-
-            write_to_log_process(buffer);
-
         }
-        close(fd[READ_END]); // Child process is done reading. pipe on Child's side is completely closed. Ready to be ended
-        end_log_process();
     }
     return f;
 }
-
-// void update_buff_till_nl(char buffer[], char out[]) {
-//     int i = 0;
-//     while (buffer[i] != '\n' && buffer[i] != '\0') {
-//         out[i] = buffer[i];
-//         i++;
-//     }
-//     out[i] = '\0';
-// }
 
 int insert_sensor(FILE * f, sensor_id_t id, sensor_value_t value, sensor_ts_t ts) {
 
@@ -93,17 +90,21 @@ int insert_sensor(FILE * f, sensor_id_t id, sensor_value_t value, sensor_ts_t ts
         return -1;
     }
 
+    char tstr[30]; // Time buffer.
+    strcpy(tstr, ctime(&ts)); // ctime() makes the time(NULL) result into a readable "Day-Month-Date-Hour-Year\n" format. We are copying into a buffer instead of taking string literal directly bcs we need to remove the newline at the end.
+    tstr[strcspn(tstr, "\n")] = '\0'; // By replacing newline with null operator, we essentially remove the character (make the string end at the position where \n was)
+
     fprintf(f, "%u,", id); // fprintf() -> system call to write into OPENED file.
     fprintf(f, "%.10f,", value);
-    fprintf(f, "%ld\n", ts);
+    fprintf(f, "%s\n", tstr);
     int flush = fflush(f); // fflush() sends the content of the buffer of the FILE stream (updated thus far with fprintf() ) to the OS at runtime. So that the OS can execute it (i.e. create the file at runtime). If it returns -1, the flush failed and file may not be updated.
     if (flush != 0) {
-        char * msg = "failed to update csv with sensor data\n";
+        char * msg = "failed to update csv with sensor data";
         write(fd[1],msg,strlen(msg)+1);
         return -1;
     }
 
-    char * msg = "csv updated with sensor data\n";
+    char * msg = "csv updated with sensor data";
     write(fd[1],msg,strlen(msg)+1);
 
     return 0;
@@ -112,16 +113,16 @@ int insert_sensor(FILE * f, sensor_id_t id, sensor_value_t value, sensor_ts_t ts
 int close_db(FILE * f) {
     fclose(f);
 
-    char * msg = "csv closed successfully\n";
+    char * msg = "csv closed successfully";
     write(fd[1],msg,strlen(msg)+1);
 
     sleep(2);
 
-    msg = "child exit\n";
+    msg = "child exit";
     write(fd[1],msg,strlen(msg)+1);
 
     close(fd[WRITE_END]); // Parent is done writing. Pipe closed on Parent's side.
-    wait(NULL); // The parent waits for the child to end, so as to avoid an Orphan process.
+    wait(NULL); // The parent waits for the child to end, to avoid an Orphan process.
 
     return 0;
 }
