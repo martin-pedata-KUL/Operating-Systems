@@ -87,6 +87,7 @@ FILE * open_db(char * filename, bool append) {
 int insert_sensor(FILE * f, sensor_id_t id, sensor_value_t value, sensor_ts_t ts) {
 
     if (f == NULL) { // File not opened
+        printf("cannot read from closed file");
         return -1;
     }
 
