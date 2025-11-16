@@ -116,8 +116,6 @@ int close_db(FILE * f) {
     char * msg = "csv closed successfully";
     write(fd[1],msg,strlen(msg)+1);
 
-    sleep(2);
-
     msg = "child exit";
     write(fd[1],msg,strlen(msg)+1);
 
