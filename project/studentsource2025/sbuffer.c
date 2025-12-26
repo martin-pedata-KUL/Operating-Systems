@@ -5,7 +5,6 @@
 #include "sbuffer.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <unistd.h>
 #include <pthread.h>
 #include "config.h"
 
@@ -126,32 +125,6 @@ int sbuffer_insert(sbuffer_t *buffer, sensor_data_t *data) {
     pthread_mutex_unlock(&sbuff_mtx);
 
     return SBUFFER_SUCCESS;
-}
-
-int sbuffer_size(sbuffer_t *buffer) {
-    if (buffer == NULL) return -1; // NO list exists
-
-    pthread_mutex_lock(&sbuff_mtx);
-
-    sbuffer_node_t *current_node = buffer->head;
-    if (current_node == NULL) { //List exists, no elements added
-        pthread_mutex_unlock(&sbuff_mtx);
-        return 0;
-    }
-
-    if (current_node->next == NULL) { // 1 element in list
-        pthread_mutex_unlock(&sbuff_mtx);
-        return 1;
-    }
-    int count = 1;
-    while (current_node->next != NULL) {
-        current_node = current_node->next;
-        count++;
-    }
-
-    pthread_mutex_unlock(&sbuff_mtx);
-
-    return count;
 }
 
 void sbuff_connmgr_termination(sbuffer_t *sbuffer) {

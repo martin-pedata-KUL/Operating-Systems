@@ -4,14 +4,12 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <inttypes.h>
 #include "config.h"
 #include "lib/tcpsock.h"
 #include <pthread.h>
 #include <sys/socket.h>
 #include "connmgr.h"
 
-#include <signal.h>
 #include <string.h>
 #include <unistd.h>
 #include <sys/select.h>
@@ -83,9 +81,7 @@ void * worker(void * client_block_prmtr) { // Worker thread retrieves data from 
 
 		if (result == TCP_NO_ERROR) {
 			if (bytes) {
-				// printf("sensor id = %" PRIu16 ", temperature = %g, timestamp = %ld\n", sensor_data.id, sensor_data.value, (long int) sensor_data.ts);
 				sbuffer_insert(sbuff,&sensor_data); // Insert sensor data in buffer
-				// printf("***** ADDED: buffer size = %d ******\n", sbuffer_size(sbuff));
 			}
 		}
 	} while (result == TCP_NO_ERROR); //  Connection between server and client is still alive and bytes being received.

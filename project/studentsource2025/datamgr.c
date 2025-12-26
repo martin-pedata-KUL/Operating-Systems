@@ -4,23 +4,17 @@
 
 #include <stdio.h>
 #include <stdint.h>
-#include <time.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include "lib/dplist.h"
 #include "config.h"
 #include "datamgr.h"
-
 #include <string.h>
-#include <bits/pthreadtypes.h>
-
 #include "sensor_db.h"
-
-pthread_mutex_t sbuffer_mutex;
-pthread_cond_t not_empty;
 
 static dplist_t * list_sn = NULL;  // GLOBAL Variable: Can be accessed from anywhere (STATIC: only visible within this .c file)
 extern int fd[2];
+
 void *element_copy(void *element) {
     my_element_t *copy = malloc(sizeof(my_element_t));
     copy->sensor_id = ((my_element_t *)element)->sensor_id;
@@ -109,7 +103,7 @@ void datamgr_read(sbuffer_t * sbuff) {
 }
 
 my_element_t * datamgr_get_sensor_node(sensor_id_t sensor_id) {
-    for (int i = 0; i<dpl_get_sensors(); i++) {
+    for (int i = 0; i<dpl_size(list_sn); i++) {
         my_element_t *current = dpl_get_element_at_index(list_sn, i);
         if (current->sensor_id == sensor_id) {
             return current;
@@ -135,18 +129,6 @@ void datamgr_free() {
     dpl_free(&list_sn,true);
 }
 
-uint16_t datamgr_get_room_id(sensor_id_t sensor_id)  {
-    uint16_t id = 0;
-    for (int i =  0; i < dpl_get_sensors(); i++) {
-        my_element_t * element = dpl_get_element_at_index(list_sn,i);
-        if (sensor_id == element->sensor_id) {
-            return element->room_id;
-        }
-    }
-    ERROR_HANDLER(id == 0, "Invalid sensor id");
-    return id;
-}
-
 sensor_value_t datamgr_get_avg(sensor_id_t sensor_id) {
 
     my_element_t * element = datamgr_get_sensor_node(sensor_id);
@@ -165,20 +147,4 @@ sensor_value_t datamgr_get_avg(sensor_id_t sensor_id) {
     sensor_value_t avg = sum/(RUN_AVG_LENGTH-non_valid_readings);
 
     return avg;
-}
-
-time_t datamgr_get_last_modified(sensor_id_t sensor_id) {
-    int ts = -1;
-    for (int i =  0; i < dpl_get_sensors(); i++) {
-        my_element_t * element = dpl_get_element_at_index(list_sn,i);
-        if (sensor_id == element->sensor_id) {
-            return element->timestamp;
-        }
-    }
-    ERROR_HANDLER(ts == -1, "Invalid sensor id");
-    return -1;
-}
-
-int dpl_get_sensors() {
-    return dpl_size(list_sn);
 }

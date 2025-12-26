@@ -29,8 +29,6 @@ typedef struct sbuffer {
 
 int sbuffer_init(sbuffer_t **buffer);
 
-int sbuffer_size(sbuffer_t *buffer);
-
 int sbuffer_get_head_content(sbuffer_t * sbuff, sensor_data_t * out);
 
 int sbuffer_free(sbuffer_t **buffer);

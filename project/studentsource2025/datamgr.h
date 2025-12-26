@@ -15,11 +15,11 @@
 #endif
 
 #ifndef SET_MAX_TEMP
-#define SET_MAX_TEMP 18
+#define SET_MAX_TEMP 20
 #endif
 
 #ifndef SET_MIN_TEMP
-#define SET_MIN_TEMP 17
+#define SET_MIN_TEMP 19
 #endif
 
 /*
@@ -52,23 +52,12 @@ void datamgr_sensor_mapping(FILE *fp_sensor_map);
 
 void datamgr_read(sbuffer_t * sbuff);
 
-my_element_t * datamgr_get_sensor_node(sensor_id_t sensor_id);
-
-
 void update_sensor_readings( my_element_t * element, sensor_ts_t sensor_ts, sensor_value_t sensor_value);
+
+my_element_t * datamgr_get_sensor_node(sensor_id_t sensor_id);
 
 void datamgr_free();
 
-
-uint16_t datamgr_get_room_id(sensor_id_t sensor_id);
-
-
 sensor_value_t datamgr_get_avg(sensor_id_t sensor_id);
-
-
-time_t datamgr_get_last_modified(sensor_id_t sensor_id);
-
-
-int dpl_get_sensors();
 
 #endif  //DATAMGR_H_

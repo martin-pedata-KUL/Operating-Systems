@@ -163,7 +163,6 @@ int create_log_process() {
     return fork();
 }
 
-int end_log_process() {
+void end_log_process() {
     exit(0); // Ends log (child) process
-    return 0;
 }
