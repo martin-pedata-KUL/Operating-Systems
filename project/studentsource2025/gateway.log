@@ -1,0 +1,731 @@
+0 - Fri Dec 26 23:36:34 2025 - A new data.csv file has been created
+1 - Fri Dec 26 23:36:37 2025 - Sensor node 15 has opened a new connection
+2 - Fri Dec 26 23:36:37 2025 - Sensor node 15 reports it's too cold (avg temp = 19.931232)
+3 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 15 succeeded
+4 - Fri Dec 26 23:36:37 2025 - Sensor node 15 reports it's too cold (avg temp = 19.938869)
+5 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 15 succeeded
+6 - Fri Dec 26 23:36:37 2025 - Sensor node 10 has opened a new connection
+7 - Fri Dec 26 23:36:37 2025 - Received sensor data with invalid sensor node ID 10
+8 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 10 succeeded
+9 - Fri Dec 26 23:36:37 2025 - Sensor node 15 reports it's too cold (avg temp = 19.941949)
+10 - Fri Dec 26 23:36:37 2025 - Received sensor data with invalid sensor node ID 10
+11 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 15 succeeded
+12 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 10 succeeded
+13 - Fri Dec 26 23:36:37 2025 - Sensor node 37 has opened a new connection
+14 - Fri Dec 26 23:36:37 2025 - Sensor node 37 reports it's too cold (avg temp = 19.931232)
+15 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 37 succeeded
+16 - Fri Dec 26 23:36:37 2025 - Sensor node 15 reports it's too cold (avg temp = 19.941720)
+17 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 15 succeeded
+18 - Fri Dec 26 23:36:37 2025 - Received sensor data with invalid sensor node ID 10
+19 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 10 succeeded
+20 - Fri Dec 26 23:36:37 2025 - Sensor node 132 has opened a new connection
+21 - Fri Dec 26 23:36:37 2025 - Sensor node 37 reports it's too cold (avg temp = 19.938869)
+22 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 37 succeeded
+23 - Fri Dec 26 23:36:37 2025 - Sensor node 132 reports it's too cold (avg temp = 19.931232)
+24 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 132 succeeded
+25 - Fri Dec 26 23:36:37 2025 - Sensor node 15 reports it's too cold (avg temp = 19.962441)
+26 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 15 succeeded
+27 - Fri Dec 26 23:36:37 2025 - Received sensor data with invalid sensor node ID 10
+28 - Fri Dec 26 23:36:37 2025 - Sensor node 37 reports it's too cold (avg temp = 19.941949)
+29 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 10 succeeded
+30 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 37 succeeded
+31 - Fri Dec 26 23:36:37 2025 - Sensor node 142 has opened a new connection
+32 - Fri Dec 26 23:36:37 2025 - Sensor node 132 reports it's too cold (avg temp = 19.938869)
+33 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 132 succeeded
+34 - Fri Dec 26 23:36:37 2025 - Sensor node 142 reports it's too cold (avg temp = 19.931232)
+35 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 142 succeeded
+36 - Fri Dec 26 23:36:37 2025 - Sensor node 15 reports it's too cold (avg temp = 19.975503)
+37 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 15 succeeded
+38 - Fri Dec 26 23:36:37 2025 - Received sensor data with invalid sensor node ID 10
+39 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 10 succeeded
+40 - Fri Dec 26 23:36:37 2025 - Sensor node 37 reports it's too cold (avg temp = 19.941720)
+41 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 37 succeeded
+42 - Fri Dec 26 23:36:37 2025 - Sensor node 132 reports it's too cold (avg temp = 19.941949)
+43 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 132 succeeded
+44 - Fri Dec 26 23:36:37 2025 - Sensor node 142 reports it's too cold (avg temp = 19.938869)
+45 - Fri Dec 26 23:36:37 2025 - Data insertion from sensor 142 succeeded
+46 - Fri Dec 26 23:36:38 2025 - Sensor node 15 reports it's too cold (avg temp = 19.935877)
+47 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 15 succeeded
+48 - Fri Dec 26 23:36:38 2025 - Received sensor data with invalid sensor node ID 10
+49 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 10 succeeded
+50 - Fri Dec 26 23:36:38 2025 - Sensor node 37 reports it's too cold (avg temp = 19.962441)
+51 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 37 succeeded
+52 - Fri Dec 26 23:36:38 2025 - Sensor node 132 reports it's too cold (avg temp = 19.941720)
+53 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 132 succeeded
+54 - Fri Dec 26 23:36:38 2025 - Sensor node 142 reports it's too cold (avg temp = 19.941949)
+55 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 142 succeeded
+56 - Fri Dec 26 23:36:38 2025 - Sensor node 15 reports it's too cold (avg temp = 19.868851)
+57 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 15 succeeded
+58 - Fri Dec 26 23:36:38 2025 - Received sensor data with invalid sensor node ID 10
+59 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 10 succeeded
+60 - Fri Dec 26 23:36:38 2025 - Sensor node 37 reports it's too cold (avg temp = 19.975503)
+61 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 37 succeeded
+62 - Fri Dec 26 23:36:38 2025 - Sensor node 132 reports it's too cold (avg temp = 19.962441)
+63 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 132 succeeded
+64 - Fri Dec 26 23:36:38 2025 - Sensor node 142 reports it's too cold (avg temp = 19.941720)
+65 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 142 succeeded
+66 - Fri Dec 26 23:36:38 2025 - Sensor node 15 reports it's too cold (avg temp = 19.760614)
+67 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 15 succeeded
+68 - Fri Dec 26 23:36:38 2025 - Received sensor data with invalid sensor node ID 10
+69 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 10 succeeded
+70 - Fri Dec 26 23:36:38 2025 - Sensor node 37 reports it's too cold (avg temp = 19.935877)
+71 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 37 succeeded
+72 - Fri Dec 26 23:36:38 2025 - Sensor node 132 reports it's too cold (avg temp = 19.975503)
+73 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 132 succeeded
+74 - Fri Dec 26 23:36:38 2025 - Sensor node 142 reports it's too cold (avg temp = 19.962441)
+75 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 142 succeeded
+76 - Fri Dec 26 23:36:38 2025 - Received sensor data with invalid sensor node ID 10
+77 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 10 succeeded
+78 - Fri Dec 26 23:36:38 2025 - Sensor node 15 reports it's too cold (avg temp = 19.620808)
+79 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 15 succeeded
+80 - Fri Dec 26 23:36:38 2025 - Sensor node 37 reports it's too cold (avg temp = 19.868851)
+81 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 37 succeeded
+82 - Fri Dec 26 23:36:38 2025 - Sensor node 132 reports it's too cold (avg temp = 19.935877)
+83 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 132 succeeded
+84 - Fri Dec 26 23:36:38 2025 - Sensor node 142 reports it's too cold (avg temp = 19.975503)
+85 - Fri Dec 26 23:36:38 2025 - Received sensor data with invalid sensor node ID 10
+86 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 142 succeeded
+87 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 10 succeeded
+88 - Fri Dec 26 23:36:38 2025 - Sensor node 15 reports it's too cold (avg temp = 19.506900)
+89 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 15 succeeded
+90 - Fri Dec 26 23:36:38 2025 - Sensor node 37 reports it's too cold (avg temp = 19.760614)
+91 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 37 succeeded
+92 - Fri Dec 26 23:36:38 2025 - Sensor node 132 reports it's too cold (avg temp = 19.868851)
+93 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 132 succeeded
+94 - Fri Dec 26 23:36:38 2025 - Sensor node 142 reports it's too cold (avg temp = 19.935877)
+95 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 142 succeeded
+96 - Fri Dec 26 23:36:38 2025 - Received sensor data with invalid sensor node ID 10
+97 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 10 succeeded
+98 - Fri Dec 26 23:36:38 2025 - Sensor node 15 reports it's too cold (avg temp = 19.431539)
+99 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 15 succeeded
+100 - Fri Dec 26 23:36:38 2025 - Sensor node 37 reports it's too cold (avg temp = 19.620808)
+101 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 37 succeeded
+102 - Fri Dec 26 23:36:38 2025 - Sensor node 132 reports it's too cold (avg temp = 19.760614)
+103 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 132 succeeded
+104 - Fri Dec 26 23:36:38 2025 - Sensor node 142 reports it's too cold (avg temp = 19.868851)
+105 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 142 succeeded
+106 - Fri Dec 26 23:36:38 2025 - Received sensor data with invalid sensor node ID 10
+107 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 10 succeeded
+108 - Fri Dec 26 23:36:38 2025 - Sensor node 15 reports it's too cold (avg temp = 19.376061)
+109 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 15 succeeded
+110 - Fri Dec 26 23:36:38 2025 - Sensor node 37 reports it's too cold (avg temp = 19.506900)
+111 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 37 succeeded
+112 - Fri Dec 26 23:36:38 2025 - Sensor node 132 reports it's too cold (avg temp = 19.620808)
+113 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 132 succeeded
+114 - Fri Dec 26 23:36:38 2025 - Sensor node 142 reports it's too cold (avg temp = 19.760614)
+115 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 142 succeeded
+116 - Fri Dec 26 23:36:38 2025 - Sensor node 15 reports it's too cold (avg temp = 19.324025)
+117 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 15 succeeded
+118 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 10 succeeded
+119 - Fri Dec 26 23:36:38 2025 - Received sensor data with invalid sensor node ID 10
+120 - Fri Dec 26 23:36:38 2025 - Sensor node 37 reports it's too cold (avg temp = 19.431539)
+121 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 37 succeeded
+122 - Fri Dec 26 23:36:38 2025 - Sensor node 132 reports it's too cold (avg temp = 19.506900)
+123 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 132 succeeded
+124 - Fri Dec 26 23:36:38 2025 - Sensor node 142 reports it's too cold (avg temp = 19.620808)
+125 - Fri Dec 26 23:36:38 2025 - Sensor node 15 reports it's too cold (avg temp = 19.234878)
+126 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 142 succeeded
+127 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 15 succeeded
+128 - Fri Dec 26 23:36:38 2025 - Received sensor data with invalid sensor node ID 10
+129 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 10 succeeded
+130 - Fri Dec 26 23:36:38 2025 - Sensor node 37 reports it's too cold (avg temp = 19.376061)
+131 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 37 succeeded
+132 - Fri Dec 26 23:36:38 2025 - Sensor node 132 reports it's too cold (avg temp = 19.431539)
+133 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 132 succeeded
+134 - Fri Dec 26 23:36:38 2025 - Sensor node 142 reports it's too cold (avg temp = 19.506900)
+135 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 142 succeeded
+136 - Fri Dec 26 23:36:38 2025 - Received sensor data with invalid sensor node ID 10
+137 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 10 succeeded
+138 - Fri Dec 26 23:36:38 2025 - Sensor node 15 reports it's too cold (avg temp = 19.112813)
+139 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 15 succeeded
+140 - Fri Dec 26 23:36:38 2025 - Sensor node 37 reports it's too cold (avg temp = 19.324025)
+141 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 37 succeeded
+142 - Fri Dec 26 23:36:38 2025 - Sensor node 132 reports it's too cold (avg temp = 19.376061)
+143 - Fri Dec 26 23:36:38 2025 - Sensor node 142 reports it's too cold (avg temp = 19.431539)
+144 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 132 succeeded
+145 - Fri Dec 26 23:36:38 2025 - Data insertion from sensor 142 succeeded
+146 - Fri Dec 26 23:36:39 2025 - Sensor node 15 reports it's too cold (avg temp = 19.025262)
+147 - Fri Dec 26 23:36:39 2025 - Sensor node 37 reports it's too cold (avg temp = 19.234878)
+148 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 15 succeeded
+149 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 37 succeeded
+150 - Fri Dec 26 23:36:39 2025 - Received sensor data with invalid sensor node ID 10
+151 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 10 succeeded
+152 - Fri Dec 26 23:36:39 2025 - Sensor node 132 reports it's too cold (avg temp = 19.324025)
+153 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 132 succeeded
+154 - Fri Dec 26 23:36:39 2025 - Sensor node 142 reports it's too cold (avg temp = 19.376061)
+155 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 142 succeeded
+156 - Fri Dec 26 23:36:39 2025 - Received sensor data with invalid sensor node ID 10
+157 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 10 succeeded
+158 - Fri Dec 26 23:36:39 2025 - Sensor node 15 reports it's too cold (avg temp = 18.903719)
+159 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 15 succeeded
+160 - Fri Dec 26 23:36:39 2025 - Sensor node 37 reports it's too cold (avg temp = 19.112813)
+161 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 37 succeeded
+162 - Fri Dec 26 23:36:39 2025 - Sensor node 132 reports it's too cold (avg temp = 19.234878)
+163 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 132 succeeded
+164 - Fri Dec 26 23:36:39 2025 - Sensor node 142 reports it's too cold (avg temp = 19.324025)
+165 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 142 succeeded
+166 - Fri Dec 26 23:36:39 2025 - Received sensor data with invalid sensor node ID 10
+167 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 10 succeeded
+168 - Fri Dec 26 23:36:39 2025 - Sensor node 37 reports it's too cold (avg temp = 19.025262)
+169 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 37 succeeded
+170 - Fri Dec 26 23:36:39 2025 - Sensor node 15 reports it's too cold (avg temp = 18.830599)
+171 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 15 succeeded
+172 - Fri Dec 26 23:36:39 2025 - Sensor node 132 reports it's too cold (avg temp = 19.112813)
+173 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 132 succeeded
+174 - Fri Dec 26 23:36:39 2025 - Sensor node 142 reports it's too cold (avg temp = 19.234878)
+175 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 142 succeeded
+176 - Fri Dec 26 23:36:39 2025 - Received sensor data with invalid sensor node ID 10
+177 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 10 succeeded
+178 - Fri Dec 26 23:36:39 2025 - Sensor node 15 reports it's too cold (avg temp = 18.758508)
+179 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 15 succeeded
+180 - Fri Dec 26 23:36:39 2025 - Sensor node 37 reports it's too cold (avg temp = 18.903719)
+181 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 37 succeeded
+182 - Fri Dec 26 23:36:39 2025 - Sensor node 132 reports it's too cold (avg temp = 19.025262)
+183 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 132 succeeded
+184 - Fri Dec 26 23:36:39 2025 - Sensor node 142 reports it's too cold (avg temp = 19.112813)
+185 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 142 succeeded
+186 - Fri Dec 26 23:36:39 2025 - Received sensor data with invalid sensor node ID 10
+187 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 10 succeeded
+188 - Fri Dec 26 23:36:39 2025 - Sensor node 15 reports it's too cold (avg temp = 18.688805)
+189 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 15 succeeded
+190 - Fri Dec 26 23:36:39 2025 - Sensor node 37 reports it's too cold (avg temp = 18.830599)
+191 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 37 succeeded
+192 - Fri Dec 26 23:36:39 2025 - Sensor node 132 reports it's too cold (avg temp = 18.903719)
+193 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 132 succeeded
+194 - Fri Dec 26 23:36:39 2025 - Sensor node 142 reports it's too cold (avg temp = 19.025262)
+195 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 142 succeeded
+196 - Fri Dec 26 23:36:39 2025 - Sensor node 15 reports it's too cold (avg temp = 18.560048)
+197 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 15 succeeded
+198 - Fri Dec 26 23:36:39 2025 - Received sensor data with invalid sensor node ID 10
+199 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 10 succeeded
+200 - Fri Dec 26 23:36:39 2025 - Sensor node 37 reports it's too cold (avg temp = 18.758508)
+201 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 37 succeeded
+202 - Fri Dec 26 23:36:39 2025 - Sensor node 132 reports it's too cold (avg temp = 18.830599)
+203 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 132 succeeded
+204 - Fri Dec 26 23:36:39 2025 - Sensor node 142 reports it's too cold (avg temp = 18.903719)
+205 - Fri Dec 26 23:36:39 2025 - Received sensor data with invalid sensor node ID 10
+206 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 142 succeeded
+207 - Fri Dec 26 23:36:39 2025 - Sensor node 15 reports it's too cold (avg temp = 18.440862)
+208 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 10 succeeded
+209 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 15 succeeded
+210 - Fri Dec 26 23:36:39 2025 - Sensor node 37 reports it's too cold (avg temp = 18.688805)
+211 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 37 succeeded
+212 - Fri Dec 26 23:36:39 2025 - Sensor node 132 reports it's too cold (avg temp = 18.758508)
+213 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 132 succeeded
+214 - Fri Dec 26 23:36:39 2025 - Sensor node 142 reports it's too cold (avg temp = 18.830599)
+215 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 142 succeeded
+216 - Fri Dec 26 23:36:39 2025 - Received sensor data with invalid sensor node ID 10
+217 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 10 succeeded
+218 - Fri Dec 26 23:36:39 2025 - Sensor node 15 reports it's too cold (avg temp = 18.354222)
+219 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 15 succeeded
+220 - Fri Dec 26 23:36:39 2025 - Sensor node 37 reports it's too cold (avg temp = 18.560048)
+221 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 37 succeeded
+222 - Fri Dec 26 23:36:39 2025 - Sensor node 132 reports it's too cold (avg temp = 18.688805)
+223 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 132 succeeded
+224 - Fri Dec 26 23:36:39 2025 - Sensor node 142 reports it's too cold (avg temp = 18.758508)
+225 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 142 succeeded
+226 - Fri Dec 26 23:36:39 2025 - Received sensor data with invalid sensor node ID 10
+227 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 10 succeeded
+228 - Fri Dec 26 23:36:39 2025 - Sensor node 37 reports it's too cold (avg temp = 18.440862)
+229 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 37 succeeded
+230 - Fri Dec 26 23:36:39 2025 - Sensor node 15 reports it's too cold (avg temp = 18.272506)
+231 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 15 succeeded
+232 - Fri Dec 26 23:36:39 2025 - Sensor node 132 reports it's too cold (avg temp = 18.560048)
+233 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 132 succeeded
+234 - Fri Dec 26 23:36:39 2025 - Sensor node 142 reports it's too cold (avg temp = 18.688805)
+235 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 142 succeeded
+236 - Fri Dec 26 23:36:39 2025 - Sensor node 15 reports it's too cold (avg temp = 18.180400)
+237 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 15 succeeded
+238 - Fri Dec 26 23:36:39 2025 - Received sensor data with invalid sensor node ID 10
+239 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 10 succeeded
+240 - Fri Dec 26 23:36:39 2025 - Sensor node 37 reports it's too cold (avg temp = 18.354222)
+241 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 37 succeeded
+242 - Fri Dec 26 23:36:39 2025 - Sensor node 132 reports it's too cold (avg temp = 18.440862)
+243 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 132 succeeded
+244 - Fri Dec 26 23:36:39 2025 - Sensor node 142 reports it's too cold (avg temp = 18.560048)
+245 - Fri Dec 26 23:36:39 2025 - Data insertion from sensor 142 succeeded
+246 - Fri Dec 26 23:36:40 2025 - Sensor node 15 reports it's too cold (avg temp = 18.091356)
+247 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 15 succeeded
+248 - Fri Dec 26 23:36:40 2025 - Received sensor data with invalid sensor node ID 10
+249 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 10 succeeded
+250 - Fri Dec 26 23:36:40 2025 - Sensor node 37 reports it's too cold (avg temp = 18.272506)
+251 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 37 succeeded
+252 - Fri Dec 26 23:36:40 2025 - Sensor node 132 reports it's too cold (avg temp = 18.354222)
+253 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 132 succeeded
+254 - Fri Dec 26 23:36:40 2025 - Sensor node 142 reports it's too cold (avg temp = 18.440862)
+255 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 142 succeeded
+256 - Fri Dec 26 23:36:40 2025 - Received sensor data with invalid sensor node ID 10
+257 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 10 succeeded
+258 - Fri Dec 26 23:36:40 2025 - Sensor node 15 reports it's too cold (avg temp = 18.044970)
+259 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 15 succeeded
+260 - Fri Dec 26 23:36:40 2025 - Sensor node 37 reports it's too cold (avg temp = 18.180400)
+261 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 37 succeeded
+262 - Fri Dec 26 23:36:40 2025 - Sensor node 132 reports it's too cold (avg temp = 18.272506)
+263 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 132 succeeded
+264 - Fri Dec 26 23:36:40 2025 - Sensor node 142 reports it's too cold (avg temp = 18.354222)
+265 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 142 succeeded
+266 - Fri Dec 26 23:36:40 2025 - Sensor node 15 reports it's too cold (avg temp = 17.933927)
+267 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 15 succeeded
+268 - Fri Dec 26 23:36:40 2025 - Sensor node 37 reports it's too cold (avg temp = 18.091356)
+269 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 37 succeeded
+270 - Fri Dec 26 23:36:40 2025 - Received sensor data with invalid sensor node ID 10
+271 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 10 succeeded
+272 - Fri Dec 26 23:36:40 2025 - Sensor node 132 reports it's too cold (avg temp = 18.180400)
+273 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 132 succeeded
+274 - Fri Dec 26 23:36:40 2025 - Sensor node 142 reports it's too cold (avg temp = 18.272506)
+275 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 142 succeeded
+276 - Fri Dec 26 23:36:40 2025 - Sensor node 37 reports it's too cold (avg temp = 18.044970)
+277 - Fri Dec 26 23:36:40 2025 - Sensor node 15 reports it's too cold (avg temp = 17.888250)
+278 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 37 succeeded
+279 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 15 succeeded
+280 - Fri Dec 26 23:36:40 2025 - Received sensor data with invalid sensor node ID 10
+281 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 10 succeeded
+282 - Fri Dec 26 23:36:40 2025 - Sensor node 132 reports it's too cold (avg temp = 18.091356)
+283 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 132 succeeded
+284 - Fri Dec 26 23:36:40 2025 - Sensor node 142 reports it's too cold (avg temp = 18.180400)
+285 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 142 succeeded
+286 - Fri Dec 26 23:36:40 2025 - Sensor node 37 reports it's too cold (avg temp = 17.933927)
+287 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 37 succeeded
+288 - Fri Dec 26 23:36:40 2025 - Sensor node 15 reports it's too cold (avg temp = 17.887535)
+289 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 15 succeeded
+290 - Fri Dec 26 23:36:40 2025 - Received sensor data with invalid sensor node ID 10
+291 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 10 succeeded
+292 - Fri Dec 26 23:36:40 2025 - Sensor node 132 reports it's too cold (avg temp = 18.044970)
+293 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 132 succeeded
+294 - Fri Dec 26 23:36:40 2025 - Sensor node 142 reports it's too cold (avg temp = 18.091356)
+295 - Fri Dec 26 23:36:40 2025 - Sensor node 37 reports it's too cold (avg temp = 17.888250)
+296 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 142 succeeded
+297 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 37 succeeded
+298 - Fri Dec 26 23:36:40 2025 - Received sensor data with invalid sensor node ID 10
+299 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 10 succeeded
+300 - Fri Dec 26 23:36:40 2025 - Sensor node 15 reports it's too cold (avg temp = 17.961314)
+301 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 15 succeeded
+302 - Fri Dec 26 23:36:40 2025 - Sensor node 132 reports it's too cold (avg temp = 17.933927)
+303 - Fri Dec 26 23:36:40 2025 - Sensor node 142 reports it's too cold (avg temp = 18.044970)
+304 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 132 succeeded
+305 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 142 succeeded
+306 - Fri Dec 26 23:36:40 2025 - Sensor node 15 reports it's too cold (avg temp = 18.052130)
+307 - Fri Dec 26 23:36:40 2025 - Received sensor data with invalid sensor node ID 10
+308 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 15 succeeded
+309 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 10 succeeded
+310 - Fri Dec 26 23:36:40 2025 - Sensor node 37 reports it's too cold (avg temp = 17.887535)
+311 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 37 succeeded
+312 - Fri Dec 26 23:36:40 2025 - Sensor node 132 reports it's too cold (avg temp = 17.888250)
+313 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 132 succeeded
+314 - Fri Dec 26 23:36:40 2025 - Sensor node 142 reports it's too cold (avg temp = 17.933927)
+315 - Fri Dec 26 23:36:40 2025 - Received sensor data with invalid sensor node ID 10
+316 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 142 succeeded
+317 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 10 succeeded
+318 - Fri Dec 26 23:36:40 2025 - Sensor node 15 reports it's too cold (avg temp = 18.140536)
+319 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 15 succeeded
+320 - Fri Dec 26 23:36:40 2025 - Sensor node 37 reports it's too cold (avg temp = 17.961314)
+321 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 37 succeeded
+322 - Fri Dec 26 23:36:40 2025 - Sensor node 132 reports it's too cold (avg temp = 17.887535)
+323 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 132 succeeded
+324 - Fri Dec 26 23:36:40 2025 - Sensor node 142 reports it's too cold (avg temp = 17.888250)
+325 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 142 succeeded
+326 - Fri Dec 26 23:36:40 2025 - Sensor node 37 reports it's too cold (avg temp = 18.052130)
+327 - Fri Dec 26 23:36:40 2025 - Received sensor data with invalid sensor node ID 10
+328 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 37 succeeded
+329 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 10 succeeded
+330 - Fri Dec 26 23:36:40 2025 - Sensor node 15 reports it's too cold (avg temp = 18.184396)
+331 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 15 succeeded
+332 - Fri Dec 26 23:36:40 2025 - Sensor node 132 reports it's too cold (avg temp = 17.961314)
+333 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 132 succeeded
+334 - Fri Dec 26 23:36:40 2025 - Sensor node 142 reports it's too cold (avg temp = 17.887535)
+335 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 142 succeeded
+336 - Fri Dec 26 23:36:40 2025 - Sensor node 37 reports it's too cold (avg temp = 18.140536)
+337 - Fri Dec 26 23:36:40 2025 - Received sensor data with invalid sensor node ID 10
+338 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 37 succeeded
+339 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 10 succeeded
+340 - Fri Dec 26 23:36:40 2025 - Sensor node 15 reports it's too cold (avg temp = 18.233868)
+341 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 15 succeeded
+342 - Fri Dec 26 23:36:40 2025 - Sensor node 132 reports it's too cold (avg temp = 18.052130)
+343 - Fri Dec 26 23:36:40 2025 - Data insertion from sensor 132 succeeded
+344 - Fri Dec 26 23:36:41 2025 - Sensor node 142 reports it's too cold (avg temp = 17.961314)
+345 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 142 succeeded
+346 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 37 succeeded
+347 - Fri Dec 26 23:36:41 2025 - Sensor node 37 reports it's too cold (avg temp = 18.184396)
+348 - Fri Dec 26 23:36:41 2025 - Received sensor data with invalid sensor node ID 10
+349 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 10 succeeded
+350 - Fri Dec 26 23:36:41 2025 - Sensor node 15 reports it's too cold (avg temp = 18.246882)
+351 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 15 succeeded
+352 - Fri Dec 26 23:36:41 2025 - Sensor node 132 reports it's too cold (avg temp = 18.140536)
+353 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 132 succeeded
+354 - Fri Dec 26 23:36:41 2025 - Sensor node 142 reports it's too cold (avg temp = 18.052130)
+355 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 142 succeeded
+356 - Fri Dec 26 23:36:41 2025 - Sensor node 37 reports it's too cold (avg temp = 18.233868)
+357 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 37 succeeded
+358 - Fri Dec 26 23:36:41 2025 - Sensor node 15 reports it's too cold (avg temp = 18.220419)
+359 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 15 succeeded
+360 - Fri Dec 26 23:36:41 2025 - Received sensor data with invalid sensor node ID 10
+361 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 10 succeeded
+362 - Fri Dec 26 23:36:41 2025 - Sensor node 132 reports it's too cold (avg temp = 18.184396)
+363 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 132 succeeded
+364 - Fri Dec 26 23:36:41 2025 - Sensor node 142 reports it's too cold (avg temp = 18.140536)
+365 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 142 succeeded
+366 - Fri Dec 26 23:36:41 2025 - Received sensor data with invalid sensor node ID 10
+367 - Fri Dec 26 23:36:41 2025 - Sensor node 37 reports it's too cold (avg temp = 18.246882)
+368 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 10 succeeded
+369 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 37 succeeded
+370 - Fri Dec 26 23:36:41 2025 - Sensor node 15 reports it's too cold (avg temp = 18.237508)
+371 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 15 succeeded
+372 - Fri Dec 26 23:36:41 2025 - Sensor node 132 reports it's too cold (avg temp = 18.233868)
+373 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 132 succeeded
+374 - Fri Dec 26 23:36:41 2025 - Sensor node 142 reports it's too cold (avg temp = 18.184396)
+375 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 142 succeeded
+376 - Fri Dec 26 23:36:41 2025 - Received sensor data with invalid sensor node ID 10
+377 - Fri Dec 26 23:36:41 2025 - Sensor node 37 reports it's too cold (avg temp = 18.220419)
+378 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 10 succeeded
+379 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 37 succeeded
+380 - Fri Dec 26 23:36:41 2025 - Sensor node 15 reports it's too cold (avg temp = 18.257152)
+381 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 15 succeeded
+382 - Fri Dec 26 23:36:41 2025 - Sensor node 132 reports it's too cold (avg temp = 18.246882)
+383 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 132 succeeded
+384 - Fri Dec 26 23:36:41 2025 - Sensor node 142 reports it's too cold (avg temp = 18.233868)
+385 - Fri Dec 26 23:36:41 2025 - Received sensor data with invalid sensor node ID 10
+386 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 142 succeeded
+387 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 10 succeeded
+388 - Fri Dec 26 23:36:41 2025 - Sensor node 37 reports it's too cold (avg temp = 18.237508)
+389 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 37 succeeded
+390 - Fri Dec 26 23:36:41 2025 - Sensor node 15 reports it's too cold (avg temp = 18.277398)
+391 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 15 succeeded
+392 - Fri Dec 26 23:36:41 2025 - Sensor node 132 reports it's too cold (avg temp = 18.220419)
+393 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 132 succeeded
+394 - Fri Dec 26 23:36:41 2025 - Sensor node 142 reports it's too cold (avg temp = 18.246882)
+395 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 142 succeeded
+396 - Fri Dec 26 23:36:41 2025 - Sensor node 15 reports it's too cold (avg temp = 18.254358)
+397 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 15 succeeded
+398 - Fri Dec 26 23:36:41 2025 - Sensor node 37 reports it's too cold (avg temp = 18.257152)
+399 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 37 succeeded
+400 - Fri Dec 26 23:36:41 2025 - Received sensor data with invalid sensor node ID 10
+401 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 10 succeeded
+402 - Fri Dec 26 23:36:41 2025 - Sensor node 132 reports it's too cold (avg temp = 18.237508)
+403 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 132 succeeded
+404 - Fri Dec 26 23:36:41 2025 - Sensor node 142 reports it's too cold (avg temp = 18.220419)
+405 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 142 succeeded
+406 - Fri Dec 26 23:36:41 2025 - Sensor node 15 reports it's too cold (avg temp = 18.205944)
+407 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 15 succeeded
+408 - Fri Dec 26 23:36:41 2025 - Sensor node 37 reports it's too cold (avg temp = 18.277398)
+409 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 37 succeeded
+410 - Fri Dec 26 23:36:41 2025 - Received sensor data with invalid sensor node ID 10
+411 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 10 succeeded
+412 - Fri Dec 26 23:36:41 2025 - Sensor node 132 reports it's too cold (avg temp = 18.257152)
+413 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 132 succeeded
+414 - Fri Dec 26 23:36:41 2025 - Sensor node 142 reports it's too cold (avg temp = 18.237508)
+415 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 142 succeeded
+416 - Fri Dec 26 23:36:41 2025 - Sensor node 15 reports it's too cold (avg temp = 18.167646)
+417 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 15 succeeded
+418 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 37 succeeded
+419 - Fri Dec 26 23:36:41 2025 - Sensor node 37 reports it's too cold (avg temp = 18.254358)
+420 - Fri Dec 26 23:36:41 2025 - Received sensor data with invalid sensor node ID 10
+421 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 10 succeeded
+422 - Fri Dec 26 23:36:41 2025 - Sensor node 132 reports it's too cold (avg temp = 18.277398)
+423 - Fri Dec 26 23:36:41 2025 - Sensor node 142 reports it's too cold (avg temp = 18.257152)
+424 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 132 succeeded
+425 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 142 succeeded
+426 - Fri Dec 26 23:36:41 2025 - Sensor node 37 reports it's too cold (avg temp = 18.205944)
+427 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 37 succeeded
+428 - Fri Dec 26 23:36:41 2025 - Sensor node 15 reports it's too cold (avg temp = 18.108200)
+429 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 15 succeeded
+430 - Fri Dec 26 23:36:41 2025 - Received sensor data with invalid sensor node ID 10
+431 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 10 succeeded
+432 - Fri Dec 26 23:36:41 2025 - Sensor node 132 reports it's too cold (avg temp = 18.254358)
+433 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 132 succeeded
+434 - Fri Dec 26 23:36:41 2025 - Sensor node 142 reports it's too cold (avg temp = 18.277398)
+435 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 142 succeeded
+436 - Fri Dec 26 23:36:41 2025 - Sensor node 15 reports it's too cold (avg temp = 18.016050)
+437 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 15 succeeded
+438 - Fri Dec 26 23:36:41 2025 - Sensor node 37 reports it's too cold (avg temp = 18.167646)
+439 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 37 succeeded
+440 - Fri Dec 26 23:36:41 2025 - Received sensor data with invalid sensor node ID 10
+441 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 10 succeeded
+442 - Fri Dec 26 23:36:41 2025 - Sensor node 132 reports it's too cold (avg temp = 18.205944)
+443 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 132 succeeded
+444 - Fri Dec 26 23:36:41 2025 - Sensor node 142 reports it's too cold (avg temp = 18.254358)
+445 - Fri Dec 26 23:36:41 2025 - Data insertion from sensor 142 succeeded
+446 - Fri Dec 26 23:36:42 2025 - Sensor node 37 reports it's too cold (avg temp = 18.108200)
+447 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 37 succeeded
+448 - Fri Dec 26 23:36:42 2025 - Sensor node 15 reports it's too cold (avg temp = 17.926729)
+449 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 15 succeeded
+450 - Fri Dec 26 23:36:42 2025 - Received sensor data with invalid sensor node ID 10
+451 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 10 succeeded
+452 - Fri Dec 26 23:36:42 2025 - Sensor node 132 reports it's too cold (avg temp = 18.167646)
+453 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 132 succeeded
+454 - Fri Dec 26 23:36:42 2025 - Sensor node 142 reports it's too cold (avg temp = 18.205944)
+455 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 142 succeeded
+456 - Fri Dec 26 23:36:42 2025 - Sensor node 15 reports it's too cold (avg temp = 17.893726)
+457 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 15 succeeded
+458 - Fri Dec 26 23:36:42 2025 - Received sensor data with invalid sensor node ID 10
+459 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 10 succeeded
+460 - Fri Dec 26 23:36:42 2025 - Sensor node 37 reports it's too cold (avg temp = 18.016050)
+461 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 37 succeeded
+462 - Fri Dec 26 23:36:42 2025 - Sensor node 132 reports it's too cold (avg temp = 18.108200)
+463 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 132 succeeded
+464 - Fri Dec 26 23:36:42 2025 - Sensor node 142 reports it's too cold (avg temp = 18.167646)
+465 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 142 succeeded
+466 - Fri Dec 26 23:36:42 2025 - Sensor node 15 reports it's too cold (avg temp = 17.823980)
+467 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 15 succeeded
+468 - Fri Dec 26 23:36:42 2025 - Received sensor data with invalid sensor node ID 10
+469 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 10 succeeded
+470 - Fri Dec 26 23:36:42 2025 - Sensor node 37 reports it's too cold (avg temp = 17.926729)
+471 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 37 succeeded
+472 - Fri Dec 26 23:36:42 2025 - Sensor node 132 reports it's too cold (avg temp = 18.016050)
+473 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 132 succeeded
+474 - Fri Dec 26 23:36:42 2025 - Sensor node 142 reports it's too cold (avg temp = 18.108200)
+475 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 142 succeeded
+476 - Fri Dec 26 23:36:42 2025 - Sensor node 15 reports it's too cold (avg temp = 17.786861)
+477 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 15 succeeded
+478 - Fri Dec 26 23:36:42 2025 - Received sensor data with invalid sensor node ID 10
+479 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 10 succeeded
+480 - Fri Dec 26 23:36:42 2025 - Sensor node 37 reports it's too cold (avg temp = 17.893726)
+481 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 37 succeeded
+482 - Fri Dec 26 23:36:42 2025 - Sensor node 132 reports it's too cold (avg temp = 17.926729)
+483 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 132 succeeded
+484 - Fri Dec 26 23:36:42 2025 - Sensor node 142 reports it's too cold (avg temp = 18.016050)
+485 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 142 succeeded
+486 - Fri Dec 26 23:36:42 2025 - Sensor node 37 reports it's too cold (avg temp = 17.823980)
+487 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 37 succeeded
+488 - Fri Dec 26 23:36:42 2025 - Sensor node 15 reports it's too cold (avg temp = 17.803775)
+489 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 15 succeeded
+490 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 10 succeeded
+491 - Fri Dec 26 23:36:42 2025 - Received sensor data with invalid sensor node ID 10
+492 - Fri Dec 26 23:36:42 2025 - Sensor node 132 reports it's too cold (avg temp = 17.893726)
+493 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 132 succeeded
+494 - Fri Dec 26 23:36:42 2025 - Sensor node 142 reports it's too cold (avg temp = 17.926729)
+495 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 142 succeeded
+496 - Fri Dec 26 23:36:42 2025 - Sensor node 15 reports it's too cold (avg temp = 17.888385)
+497 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 15 succeeded
+498 - Fri Dec 26 23:36:42 2025 - Sensor node 37 reports it's too cold (avg temp = 17.786861)
+499 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 37 succeeded
+500 - Fri Dec 26 23:36:42 2025 - Received sensor data with invalid sensor node ID 10
+501 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 10 succeeded
+502 - Fri Dec 26 23:36:42 2025 - Sensor node 132 reports it's too cold (avg temp = 17.823980)
+503 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 132 succeeded
+504 - Fri Dec 26 23:36:42 2025 - Sensor node 142 reports it's too cold (avg temp = 17.893726)
+505 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 142 succeeded
+506 - Fri Dec 26 23:36:42 2025 - Received sensor data with invalid sensor node ID 10
+507 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 10 succeeded
+508 - Fri Dec 26 23:36:42 2025 - Sensor node 37 reports it's too cold (avg temp = 17.803775)
+509 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 37 succeeded
+510 - Fri Dec 26 23:36:42 2025 - Sensor node 15 reports it's too cold (avg temp = 17.918893)
+511 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 15 succeeded
+512 - Fri Dec 26 23:36:42 2025 - Sensor node 132 reports it's too cold (avg temp = 17.786861)
+513 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 132 succeeded
+514 - Fri Dec 26 23:36:42 2025 - Sensor node 142 reports it's too cold (avg temp = 17.823980)
+515 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 142 succeeded
+516 - Fri Dec 26 23:36:42 2025 - Sensor node 37 reports it's too cold (avg temp = 17.888385)
+517 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 37 succeeded
+518 - Fri Dec 26 23:36:42 2025 - Received sensor data with invalid sensor node ID 10
+519 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 10 succeeded
+520 - Fri Dec 26 23:36:42 2025 - Sensor node 15 reports it's too cold (avg temp = 17.923799)
+521 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 15 succeeded
+522 - Fri Dec 26 23:36:42 2025 - Sensor node 132 reports it's too cold (avg temp = 17.803775)
+523 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 132 succeeded
+524 - Fri Dec 26 23:36:42 2025 - Sensor node 142 reports it's too cold (avg temp = 17.786861)
+525 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 142 succeeded
+526 - Fri Dec 26 23:36:42 2025 - Sensor node 37 reports it's too cold (avg temp = 17.918893)
+527 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 37 succeeded
+528 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 10 succeeded
+529 - Fri Dec 26 23:36:42 2025 - Received sensor data with invalid sensor node ID 10
+530 - Fri Dec 26 23:36:42 2025 - Sensor node 15 reports it's too cold (avg temp = 17.978793)
+531 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 15 succeeded
+532 - Fri Dec 26 23:36:42 2025 - Sensor node 132 reports it's too cold (avg temp = 17.888385)
+533 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 132 succeeded
+534 - Fri Dec 26 23:36:42 2025 - Sensor node 142 reports it's too cold (avg temp = 17.803775)
+535 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 142 succeeded
+536 - Fri Dec 26 23:36:42 2025 - Sensor node 37 reports it's too cold (avg temp = 17.923799)
+537 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 37 succeeded
+538 - Fri Dec 26 23:36:42 2025 - Sensor node 15 reports it's too cold (avg temp = 17.967183)
+539 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 15 succeeded
+540 - Fri Dec 26 23:36:42 2025 - Received sensor data with invalid sensor node ID 10
+541 - Fri Dec 26 23:36:42 2025 - Data insertion from sensor 10 succeeded
+542 - Fri Dec 26 23:36:43 2025 - Sensor node 132 reports it's too cold (avg temp = 17.918893)
+543 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 132 succeeded
+544 - Fri Dec 26 23:36:43 2025 - Sensor node 142 reports it's too cold (avg temp = 17.888385)
+545 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 142 succeeded
+546 - Fri Dec 26 23:36:43 2025 - Sensor node 15 reports it's too cold (avg temp = 17.943340)
+547 - Fri Dec 26 23:36:43 2025 - Sensor node 37 reports it's too cold (avg temp = 17.978793)
+548 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 15 succeeded
+549 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 37 succeeded
+550 - Fri Dec 26 23:36:43 2025 - Received sensor data with invalid sensor node ID 10
+551 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 10 succeeded
+552 - Fri Dec 26 23:36:43 2025 - Sensor node 132 reports it's too cold (avg temp = 17.923799)
+553 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 132 succeeded
+554 - Fri Dec 26 23:36:43 2025 - Sensor node 142 reports it's too cold (avg temp = 17.918893)
+555 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 142 succeeded
+556 - Fri Dec 26 23:36:43 2025 - Sensor node 15 reports it's too cold (avg temp = 17.991119)
+557 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 15 succeeded
+558 - Fri Dec 26 23:36:43 2025 - Sensor node 37 reports it's too cold (avg temp = 17.967183)
+559 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 37 succeeded
+560 - Fri Dec 26 23:36:43 2025 - Received sensor data with invalid sensor node ID 10
+561 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 10 succeeded
+562 - Fri Dec 26 23:36:43 2025 - Sensor node 132 reports it's too cold (avg temp = 17.978793)
+563 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 132 succeeded
+564 - Fri Dec 26 23:36:43 2025 - Sensor node 142 reports it's too cold (avg temp = 17.923799)
+565 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 142 succeeded
+566 - Fri Dec 26 23:36:43 2025 - Sensor node 37 reports it's too cold (avg temp = 17.943340)
+567 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 37 succeeded
+568 - Fri Dec 26 23:36:43 2025 - Sensor node 15 reports it's too cold (avg temp = 18.041553)
+569 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 15 succeeded
+570 - Fri Dec 26 23:36:43 2025 - Received sensor data with invalid sensor node ID 10
+571 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 10 succeeded
+572 - Fri Dec 26 23:36:43 2025 - Sensor node 132 reports it's too cold (avg temp = 17.967183)
+573 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 132 succeeded
+574 - Fri Dec 26 23:36:43 2025 - Sensor node 142 reports it's too cold (avg temp = 17.978793)
+575 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 142 succeeded
+576 - Fri Dec 26 23:36:43 2025 - Sensor node 15 reports it's too cold (avg temp = 18.086171)
+577 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 15 succeeded
+578 - Fri Dec 26 23:36:43 2025 - Sensor node 37 reports it's too cold (avg temp = 17.991119)
+579 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 37 succeeded
+580 - Fri Dec 26 23:36:43 2025 - Received sensor data with invalid sensor node ID 10
+581 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 10 succeeded
+582 - Fri Dec 26 23:36:43 2025 - Sensor node 132 reports it's too cold (avg temp = 17.943340)
+583 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 132 succeeded
+584 - Fri Dec 26 23:36:43 2025 - Sensor node 142 reports it's too cold (avg temp = 17.967183)
+585 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 142 succeeded
+586 - Fri Dec 26 23:36:43 2025 - Sensor node 15 reports it's too cold (avg temp = 18.124656)
+587 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 15 succeeded
+588 - Fri Dec 26 23:36:43 2025 - Sensor node 37 reports it's too cold (avg temp = 18.041553)
+589 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 37 succeeded
+590 - Fri Dec 26 23:36:43 2025 - Received sensor data with invalid sensor node ID 10
+591 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 10 succeeded
+592 - Fri Dec 26 23:36:43 2025 - Sensor node 132 reports it's too cold (avg temp = 17.991119)
+593 - Fri Dec 26 23:36:43 2025 - Sensor node 142 reports it's too cold (avg temp = 17.943340)
+594 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 132 succeeded
+595 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 142 succeeded
+596 - Fri Dec 26 23:36:43 2025 - Sensor node 37 reports it's too cold (avg temp = 18.086171)
+597 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 37 succeeded
+598 - Fri Dec 26 23:36:43 2025 - Sensor node 15 reports it's too cold (avg temp = 18.106025)
+599 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 15 succeeded
+600 - Fri Dec 26 23:36:43 2025 - Received sensor data with invalid sensor node ID 10
+601 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 10 succeeded
+602 - Fri Dec 26 23:36:43 2025 - Sensor node 132 reports it's too cold (avg temp = 18.041553)
+603 - Fri Dec 26 23:36:43 2025 - Sensor node 142 reports it's too cold (avg temp = 17.991119)
+604 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 132 succeeded
+605 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 142 succeeded
+606 - Fri Dec 26 23:36:43 2025 - Sensor node 15 reports it's too cold (avg temp = 18.086869)
+607 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 15 succeeded
+608 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 37 succeeded
+609 - Fri Dec 26 23:36:43 2025 - Sensor node 37 reports it's too cold (avg temp = 18.124656)
+610 - Fri Dec 26 23:36:43 2025 - Received sensor data with invalid sensor node ID 10
+611 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 10 succeeded
+612 - Fri Dec 26 23:36:43 2025 - Sensor node 132 reports it's too cold (avg temp = 18.086171)
+613 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 132 succeeded
+614 - Fri Dec 26 23:36:43 2025 - Sensor node 142 reports it's too cold (avg temp = 18.041553)
+615 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 142 succeeded
+616 - Fri Dec 26 23:36:43 2025 - Sensor node 15 reports it's too cold (avg temp = 18.114082)
+617 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 15 succeeded
+618 - Fri Dec 26 23:36:43 2025 - Sensor node 37 reports it's too cold (avg temp = 18.106025)
+619 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 37 succeeded
+620 - Fri Dec 26 23:36:43 2025 - Received sensor data with invalid sensor node ID 10
+621 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 10 succeeded
+622 - Fri Dec 26 23:36:43 2025 - Sensor node 132 reports it's too cold (avg temp = 18.124656)
+623 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 132 succeeded
+624 - Fri Dec 26 23:36:43 2025 - Sensor node 142 reports it's too cold (avg temp = 18.086171)
+625 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 142 succeeded
+626 - Fri Dec 26 23:36:43 2025 - Sensor node 15 reports it's too cold (avg temp = 18.088873)
+627 - Fri Dec 26 23:36:43 2025 - Received sensor data with invalid sensor node ID 10
+628 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 15 succeeded
+629 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 10 succeeded
+630 - Fri Dec 26 23:36:43 2025 - Sensor node 37 reports it's too cold (avg temp = 18.086869)
+631 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 37 succeeded
+632 - Fri Dec 26 23:36:43 2025 - Sensor node 132 reports it's too cold (avg temp = 18.106025)
+633 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 132 succeeded
+634 - Fri Dec 26 23:36:43 2025 - Sensor node 142 reports it's too cold (avg temp = 18.124656)
+635 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 142 succeeded
+636 - Fri Dec 26 23:36:43 2025 - Sensor node 15 reports it's too cold (avg temp = 18.084250)
+637 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 15 succeeded
+638 - Fri Dec 26 23:36:43 2025 - Received sensor data with invalid sensor node ID 10
+639 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 10 succeeded
+640 - Fri Dec 26 23:36:43 2025 - Sensor node 37 reports it's too cold (avg temp = 18.114082)
+641 - Fri Dec 26 23:36:43 2025 - Data insertion from sensor 37 succeeded
+642 - Fri Dec 26 23:36:44 2025 - Sensor node 132 reports it's too cold (avg temp = 18.086869)
+643 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 132 succeeded
+644 - Fri Dec 26 23:36:44 2025 - Sensor node 142 reports it's too cold (avg temp = 18.106025)
+645 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 142 succeeded
+646 - Fri Dec 26 23:36:44 2025 - Sensor node 15 reports it's too cold (avg temp = 18.155388)
+647 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 15 succeeded
+648 - Fri Dec 26 23:36:44 2025 - Received sensor data with invalid sensor node ID 10
+649 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 10 succeeded
+650 - Fri Dec 26 23:36:44 2025 - Sensor node 37 reports it's too cold (avg temp = 18.088873)
+651 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 37 succeeded
+652 - Fri Dec 26 23:36:44 2025 - Sensor node 132 reports it's too cold (avg temp = 18.114082)
+653 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 132 succeeded
+654 - Fri Dec 26 23:36:44 2025 - Sensor node 142 reports it's too cold (avg temp = 18.086869)
+655 - Fri Dec 26 23:36:44 2025 - Sensor node 15 reports it's too cold (avg temp = 18.168528)
+656 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 142 succeeded
+657 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 15 succeeded
+658 - Fri Dec 26 23:36:44 2025 - Sensor node 37 reports it's too cold (avg temp = 18.084250)
+659 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 37 succeeded
+660 - Fri Dec 26 23:36:44 2025 - Received sensor data with invalid sensor node ID 10
+661 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 10 succeeded
+662 - Fri Dec 26 23:36:44 2025 - Sensor node 132 reports it's too cold (avg temp = 18.088873)
+663 - Fri Dec 26 23:36:44 2025 - Sensor node 142 reports it's too cold (avg temp = 18.114082)
+664 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 132 succeeded
+665 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 142 succeeded
+666 - Fri Dec 26 23:36:44 2025 - Received sensor data with invalid sensor node ID 10
+667 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 10 succeeded
+668 - Fri Dec 26 23:36:44 2025 - Sensor node 15 reports it's too cold (avg temp = 18.184564)
+669 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 15 succeeded
+670 - Fri Dec 26 23:36:44 2025 - Sensor node 37 reports it's too cold (avg temp = 18.155388)
+671 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 37 succeeded
+672 - Fri Dec 26 23:36:44 2025 - Sensor node 132 reports it's too cold (avg temp = 18.084250)
+673 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 132 succeeded
+674 - Fri Dec 26 23:36:44 2025 - Sensor node 142 reports it's too cold (avg temp = 18.088873)
+675 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 142 succeeded
+676 - Fri Dec 26 23:36:44 2025 - Sensor node 15 reports it's too cold (avg temp = 18.253137)
+677 - Fri Dec 26 23:36:44 2025 - Received sensor data with invalid sensor node ID 10
+678 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 15 succeeded
+679 - Fri Dec 26 23:36:44 2025 - Sensor node 37 reports it's too cold (avg temp = 18.168528)
+680 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 10 succeeded
+681 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 37 succeeded
+682 - Fri Dec 26 23:36:44 2025 - Sensor node 132 reports it's too cold (avg temp = 18.155388)
+683 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 132 succeeded
+684 - Fri Dec 26 23:36:44 2025 - Sensor node 142 reports it's too cold (avg temp = 18.084250)
+685 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 142 succeeded
+686 - Fri Dec 26 23:36:44 2025 - Sensor node 15 reports it's too cold (avg temp = 18.342547)
+687 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 15 succeeded
+688 - Fri Dec 26 23:36:44 2025 - Sensor node 37 reports it's too cold (avg temp = 18.184564)
+689 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 37 succeeded
+690 - Fri Dec 26 23:36:44 2025 - Received sensor data with invalid sensor node ID 10
+691 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 10 succeeded
+692 - Fri Dec 26 23:36:44 2025 - Sensor node 132 reports it's too cold (avg temp = 18.168528)
+693 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 132 succeeded
+694 - Fri Dec 26 23:36:44 2025 - Sensor node 142 reports it's too cold (avg temp = 18.155388)
+695 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 142 succeeded
+696 - Fri Dec 26 23:36:44 2025 - Sensor node 15 reports it's too cold (avg temp = 18.387234)
+697 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 15 succeeded
+698 - Fri Dec 26 23:36:44 2025 - Sensor node 37 reports it's too cold (avg temp = 18.253137)
+699 - Fri Dec 26 23:36:44 2025 - Received sensor data with invalid sensor node ID 10
+700 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 37 succeeded
+701 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 10 succeeded
+702 - Fri Dec 26 23:36:44 2025 - Sensor node 132 reports it's too cold (avg temp = 18.184564)
+703 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 132 succeeded
+704 - Fri Dec 26 23:36:44 2025 - Sensor node 142 reports it's too cold (avg temp = 18.168528)
+705 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 142 succeeded
+706 - Fri Dec 26 23:36:44 2025 - Sensor node 15 reports it's too cold (avg temp = 18.460236)
+707 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 15 succeeded
+708 - Fri Dec 26 23:36:44 2025 - Sensor node 37 reports it's too cold (avg temp = 18.342547)
+709 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 37 succeeded
+710 - Fri Dec 26 23:36:44 2025 - Received sensor data with invalid sensor node ID 10
+711 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 10 succeeded
+712 - Fri Dec 26 23:36:44 2025 - Sensor node 132 reports it's too cold (avg temp = 18.253137)
+713 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 132 succeeded
+714 - Fri Dec 26 23:36:44 2025 - Sensor node 142 reports it's too cold (avg temp = 18.184564)
+715 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 142 succeeded
+716 - Fri Dec 26 23:36:44 2025 - Sensor node 15 reports it's too cold (avg temp = 18.557130)
+717 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 15 succeeded
+718 - Fri Dec 26 23:36:44 2025 - Sensor node 37 reports it's too cold (avg temp = 18.387234)
+719 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 37 succeeded
+720 - Fri Dec 26 23:36:44 2025 - Received sensor data with invalid sensor node ID 10
+721 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 10 succeeded
+722 - Fri Dec 26 23:36:44 2025 - Sensor node 132 reports it's too cold (avg temp = 18.342547)
+723 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 132 succeeded
+724 - Fri Dec 26 23:36:44 2025 - Sensor node 37 has closed the connection
+725 - Fri Dec 26 23:36:44 2025 - Sensor node 132 has closed the connection
+726 - Fri Dec 26 23:36:44 2025 - Sensor node 10 has closed the connection
+727 - Fri Dec 26 23:36:44 2025 - Sensor node 15 has closed the connection
+728 - Fri Dec 26 23:36:44 2025 - Sensor node 142 has closed the connection
+729 - Fri Dec 26 23:36:44 2025 - Data insertion from sensor 142 after connection closure succeeded
+730 - Fri Dec 26 23:36:44 2025 - The data.csv file has been closed.
