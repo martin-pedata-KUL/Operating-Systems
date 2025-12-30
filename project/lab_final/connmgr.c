@@ -95,10 +95,7 @@ void * worker(void * client_block_prmtr) { // Worker thread retrieves data from 
 			"TIMEOUT: Server has closed connection with Sensor %d due to inactivity",
 			sensor_data.id);
 	}
-	else
-
 	tcp_close(&c); // Server closes its end of the connection
-
 	// LOG CONNECTION SHUTDOWN
 	write(fd[1],log_msg,strlen(log_msg)+1);
 	return NULL; // Exit point an return of parallel thread
@@ -112,7 +109,12 @@ int connection(sbuffer_t * sbuff, int MAX_CONN, int PORT) {
 	client_block_t * client_ptr_array[MAX_CONN];
     if (tcp_passive_open(&server, PORT) != TCP_NO_ERROR) exit(EXIT_FAILURE); // Open server's TCP socket with specified port
     do {
-	    if (tcp_wait_for_connection(server, &client) != TCP_NO_ERROR) break; // Main thread blocks at this line until new connection arrives. Then, client variable is overrwritten with new peer.
+	    if (tcp_wait_for_connection(server, &client) != TCP_NO_ERROR) {
+	    	if (client != NULL) {
+	    		tcp_close(&client);
+	    	}
+	    	break;
+	    } // Main thread blocks at this line until new connection arrives. Then, client variable is overrwritten with new peer.
 
     	client_ptr_array[conncntr] = malloc(sizeof *client_ptr_array[conncntr]);
     	if (!client_ptr_array[conncntr]) exit(EXIT_FAILURE);
